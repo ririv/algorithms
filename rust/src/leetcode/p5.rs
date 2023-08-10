@@ -20,7 +20,7 @@ impl Solution {
         for i in 0..s.len() {
             let odd = center_spread(&v, i as i32, i as i32);
             let even = center_spread(&v, i as i32, i as i32 + 1);
-            let current_res = if odd.1 - odd.0 > even.1 - even.0 { odd } else { even };
+            let current_res =  if odd.1 - odd.0 > even.1 - even.0 { odd } else { even };
             if ans.1-ans.0 < current_res.1 - current_res.0 {
                 ans = current_res;
             }

@@ -1,7 +1,7 @@
 package leetcode.p14;
 
-// M
-class Solution {
+// MINE
+class SolutionM {
     public String longestCommonPrefix(String[] strs) {
         StringBuilder ans = new StringBuilder();
 

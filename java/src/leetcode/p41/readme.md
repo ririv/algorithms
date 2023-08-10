@@ -1,0 +1,1 @@
+![](https://assets.leetcode-cn.com/solution-static/41/41_fig1.png)
