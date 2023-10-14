@@ -1,4 +1,5 @@
 package leetcode;
 
 class Solution {
+
 }
